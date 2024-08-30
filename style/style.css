@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    max-width: 800px;
+    border-radius: 10px;
+    border: 2px solid white;
+    overflow: hidden;
+}
+.modal{
+    font-family: sans-serif;
+    padding: 10px;
+    color: white;
+    border: 1px solid white;
+    background-color: #3598db;
+}
+.clicktomore{
+    text-align: center;
+    cursor: pointer;
+    transition: .4s;
+}
+.clicktomore:hover{opacity: .5}
+.modal-content{
+    display: none;
+    padding: 10px 0;
+    text-align: justify;
+}
